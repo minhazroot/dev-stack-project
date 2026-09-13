@@ -54,9 +54,9 @@ export default function App() {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
-      {/* <main>
+      <main>
         <Hero />
-        <Technologies
+        {/* <Technologies
           technologies={technologies}
           selected={selected}
           loading={loading}
@@ -65,9 +65,9 @@ export default function App() {
           onRemoveAll={handleRemoveAll}
         />
         <section id="projects" className="sr-only" aria-label="Projects" />
-        <section id="contact" className="sr-only" aria-label="Contact" />
+        <section id="contact" className="sr-only" aria-label="Contact" /> */}
       </main>
-      <Footer /> */}
+      <Footer />
     </div>
   )
 }
